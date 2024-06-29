@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpTodd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Success Story</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <button id="showDialog" class="cta">Book a Free Demo</button>
+                <dialog id="dialog">
+                    <div class="dialog">
+                        <div class="dialog-header">
+                            <div>
+                                <h2>Book Demo Session</h2>
+                                <p>Only 4 Spots Left!</p>
+                            </div>
+                            <button class="close-btn">&times;</button>
+                        </div>
+                        <form id="demo-form">
+                            <input type="text" placeholder="Rahul Sharma" required>
+                            <input type="email" placeholder="Email Id" required>
+                            <div class="phone-input">
+                                <select class="country-code">
+                                    <option value="+91">+91</option>
+                                </select>
+                                <input type="tel" placeholder="Enter mobile number" required>
+                            </div>
+                            <select required>
+                                <option value="" disabled selected>Select Baby Stage</option>
+                                <option value="newborn">Newborn</option>
+                                <option value="infant">Infant</option>
+                                <option value="toddler">Toddler</option>
+                            </select>
+                            <button type="submit" class="apply-btn">Apply Now</button>
+                        </form>
+                        <p class="terms">
+                            UpTodd's <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a> for complete
+                            data security
+                        </p>
+                        <div class="security-icons">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/AVAST_Software_logo.png"
+                                alt="Avast">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Closed_Lock.svg" alt="Secure">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg" alt="HTTPS">
+                        </div>
+                    </div>
+                </dialog>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Achievers</h1>
+        <p>Real Stories: Watch Babies Thrive</p>
+    </section>
+
+    <section class="developmental-wonders">
+        <h2>Developmental Wonders: <span>Early Learning Made Fun</span></h2>
+        <div class="cards">
+            <div class="card">
+                <h2>2 Months &<br /> Crawling!</h2>
+                <img src="images/dev.png" alt="2 Months & Crawling">
+            </div>
+            <div class="circle"></div>
+            <div class="card">
+                <h2>10Months & Recognising Objects</h2>
+                <img src="images/dev.png" alt="10 Months & Recognising Objects">
+            </div>
+            <div class="circle">
+            </div>
+            <div class="card">
+                <h2>18Months & <br />Reading Pictures</h2>
+                <img src="images/dev.png" alt="18 Months & Reading Pictures">
+            </div>
+        </div>
+        <img src="./images/curly.png" alt="" class="curly">
+    </section>
+    <section class="happy-parents">
+        <h2>Happy Parents, Thriving Tots: <span>Witnessing Their Child's Growth</span></h2>
+        <h3>Smarter Investment: Personalized Learning vs. Traditional Toys</h3>
+        <div class="testimonials">
+            <div class="testimonial">
+                <div>
+                    <img src="images/girl.png" alt="Parent Testimonial">
+                </div>
+                <p>Audio visual technology is creating a difference and has become a positive routine</p>
+            </div>
+            <div class="testimonial">
+                <div>
+                    <img src="images/girl.png" alt="Parent Testimonial">
+                </div>
+                <p>Audio visual technology is creating a difference and has become a positive routine</p>
+            </div>
+            <div class="testimonial">
+                <div>
+                    <img src="images/girl.png" alt="Parent Testimonial">
+                </div>
+                <p>Audio visual technology is creating a difference and has become a positive routine</p>
+            </div>
+        </div>
+        <a href="#" class="see-all">See All</a>
+    </section>
+    <section class="stats">
+        <h3>
+            <span>158</span><br> Countries
+        </h3>
+        <h3>
+            <span>98%</span><br> Happiness
+        </h3>
+        <h3>
+            <span>107</span> International &
+            <span>213</span> National Records
+        </h3>
+        <h3>
+            <span>1,50,000+</span><br> Parents
+        </h3>
+    </section>
+    <section class="brilliant-minds">
+        <h2>Brilliant Minds: <span>Celebrating Global Baby Champions</span></h2>
+        <div class="champions">
+            <div class="champion">
+                <img src="images/minds.png" alt="Baby Champion">
+                <p>UpTodd's Little Genius identified 416 Flashcards within 10 Minutes</p>
+            </div>
+            <div class="champion">
+                <img src="images/minds.png" alt="Baby Champion">
+                <p>UpTodd's Little Genius identified 416 Flashcards within 10 Minutes</p>
+            </div>
+            <div class="champion">
+                <img src="images/minds.png" alt="Baby Champion">
+                <p>UpTodd's Little Genius identified 416 Flashcards within 10 Minutes</p>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <p>Imagine what your child can achieve! Explore personalized development
+            that strengthens neural connections and builds a strong foundation for their future.</p>
+        <button class="cta">Start Now</button>
+    </section>
+    <footer>
+        <p>Started with passion to create global impact, creating real success stories in families across globe</p>
+        <div class="whatsapp-chat">
+            <img src="images/testimonial.png" alt="WhatsApp Chat">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
